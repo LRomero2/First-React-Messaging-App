@@ -19,7 +19,7 @@ class App extends Component {
   componentDidMount() {
     const username = window.prompt('Username: ', 'Anonymous');
     this.setState({ username });
-    const pusher = new Pusher('af3e19773f004c8a1639', {
+    const pusher = new Pusher('912f9ffbe4e1708e2097', {
       cluster: 'eu',
       encrypted: true
     });
